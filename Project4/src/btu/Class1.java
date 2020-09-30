@@ -13,7 +13,7 @@ public class Class1 {
         this.y = y;
         this.z = z;
 
-        return (3 * y) + z;
+        return (3 * this.y) + this.z;
     }
 
     public int Method3(int x, int y, int z){
@@ -21,6 +21,6 @@ public class Class1 {
         this.y = y;
         this.z = z;
 
-        return (12 * y) - x + z;
+        return (12 * this.y) - this.x + this.z;
     }
 }

@@ -8,7 +8,7 @@ public class Class4 {
         this.b = b;
         this.z = z;
 
-        return (a + Math.pow(b, 3) - 7) / (z + 8);
+        return (this.a + Math.pow(this.b, 3) - 7) / (this.z + 8);
     }
 
     public double Method2(double a, double b, double z){
@@ -16,7 +16,7 @@ public class Class4 {
         this.b = b;
         this.z = z;
 
-        return (a + z - Math.pow(b, 3)) / (z * a * b);
+        return (this.a + this.z - Math.pow(this.b, 3)) / (this.z * this.a * this.b);
     }
 
     public double Method3(double a, double b, double z){
@@ -24,6 +24,6 @@ public class Class4 {
         this.b = b;
         this.z = z;
 
-        return ((a * z) - b) / (z * b);
+        return ((this.a * this.z) - this.b) / (this.z * this.b);
     }
 }
